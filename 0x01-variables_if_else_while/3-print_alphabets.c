@@ -16,5 +16,6 @@ putchar(z);
 i++;
 z++;
 }
+putchar('\n');
 return (0);
 }
