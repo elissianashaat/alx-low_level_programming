@@ -7,14 +7,14 @@
 
 int main(void)
 {
-int i = 'A';
+int i = 'a';
 int z = 0;
 while (z < 10)
 {
 putchar(z + '0');
 z++;
 }
-while (i < 'G')
+while (i < 'g')
 {
 putchar(i);
 i++;
