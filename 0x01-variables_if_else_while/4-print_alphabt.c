@@ -12,12 +12,9 @@ while (i <= 'z')
 {
 if (i == 'q' || i == 'e')
 {
-continue;
+i++;
 }
-else
-{
 putchar(i);
-}
 i++;
 }
 putchar('\n');
