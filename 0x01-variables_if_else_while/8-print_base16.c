@@ -9,15 +9,15 @@ int main(void)
 {
 int i = 'A';
 int z = 0;
-while (i < 'G')
-{
-putchar(i);
-i++;
-}
 while (z < 10)
 {
 putchar(z + '0');
 z++;
+}
+while (i < 'G')
+{
+putchar(i);
+i++;
 }
 putchar('\n');
 return (0);
