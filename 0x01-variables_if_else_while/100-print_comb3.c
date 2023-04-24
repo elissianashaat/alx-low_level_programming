@@ -11,7 +11,7 @@ int i = 0;
 int j = 0;
 while (i < 10)
 {
-while (j < 10 && i < j && i != j)
+while (j < 10)
 {
 if (i < j && i != j)
 {
