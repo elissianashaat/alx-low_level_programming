@@ -9,11 +9,14 @@ int main(void)
 {
 int i = 'a';
 int z = 'A';
-while (i <= 'z' && z <= 'Z')
+while (i <= 'z')
 {
 putchar(i);
-putchar(z);
 i++;
+}
+while (z <= 'Z')
+{
+putchar(z);
 z++;
 }
 putchar('\n');
