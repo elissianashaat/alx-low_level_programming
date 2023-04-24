@@ -13,8 +13,11 @@ while (i < 10)
 {
 while (j < 10 && i < j && i != j)
 {
+if (i < j && i != j)
+{
 putchar(i + '0');
 putchar(j + '0');
+}
 if (i + j != 17)
 {
 putchar(',');
