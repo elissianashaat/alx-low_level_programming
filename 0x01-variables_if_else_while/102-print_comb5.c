@@ -7,25 +7,28 @@
 
 int main(void)
 {
-int i = 0;
-while (i < 10)
+int x = 0;
+while (x < 100)
 {
-int j = 0;
-while (j < 10)
+int y = 0;
+while (y < 100)
 {
-if (i != j && i < j)
+if (x != y)
 {
-putchar(i + '0');
-putchar(j + '0');
-if (j + i != 17)
+putchar((x / 10) + '0');
+putchar((x % 10) + '0');
+putchar(' ');
+putchar((y / 10) + '0');
+putchar((y % 10) + '0');
+if (x != 98 || y != 99)
 {
 putchar(',');
 putchar(' ');
 }
 }
-j++;
+y++;
 }
-i++;
+x++;
 }
 putchar('\n');
 return (0);
