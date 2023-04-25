@@ -3,9 +3,8 @@
 /**
  * print_sign -prints the sign of a number
  * @n: takes integer type input for a function
- *Return: 1 for positive number, -1 for negative num, 0 for anything else 
- */
-
+ *Return: 1 for positive number, -1 for negative num, 0 for anything else
+*/
 int print_sign(int n)
 {
 if (n > 0)
