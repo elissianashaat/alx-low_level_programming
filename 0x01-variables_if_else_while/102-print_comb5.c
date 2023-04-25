@@ -10,7 +10,7 @@ int main(void)
 int x = 0;
 while (x < 100)
 {
-int y = 0;
+int y = x;
 while (y < 100)
 {
 if (x != y)
