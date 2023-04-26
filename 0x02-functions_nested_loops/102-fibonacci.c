@@ -11,7 +11,7 @@
 int main(void)
 {
 int f1 = 1;
-int f2 = 0;
+int f2 = 1;
 int count, sum;
 _putchar(' ');
 while (count < 50)
