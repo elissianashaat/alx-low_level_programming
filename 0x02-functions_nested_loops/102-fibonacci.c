@@ -27,7 +27,7 @@ _putchar('\n');
 }
 else
 {
-_putchar(', ');
+printf(", ");
 }
 }
 return (0);
