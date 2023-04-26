@@ -10,8 +10,8 @@
 
 int main(void)
 {
-int f1 = 0;
-int f2 = 1;
+unsigned int f1 = 0;
+unsigned int f2 = 1;
 int count;
 unsigned long sum;
 _putchar(' ');
