@@ -18,7 +18,7 @@ _putchar(' ');
 while (count < 50)
 {
 sum = f1 + f2;
-printf("%d, ", sum);
+printf("%ld, ", sum);
 f1 = f2;
 f2 = sum;
 count++;
