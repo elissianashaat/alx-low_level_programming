@@ -25,5 +25,5 @@ for (i = n; i > 98; i--)
 printf("%d, ", i);
 }
 }
-_putchar('\n');
+printf(98'\n');
 }
