@@ -14,17 +14,20 @@ unsigned long f1 = 0;
 unsigned long f2 = 1;
 int count;
 unsigned long sum;
-_putchar(' ');
 while (count < 50)
 {
 sum = f1 + f2;
-printf("%lu, ", sum);
+printf("%lu ", sum);
 f1 = f2;
 f2 = sum;
 count++;
 if (count == 49)
 {
 _putchar('\n');
+}
+else
+{
+_putchar(',');
 }
 }
 return (0);
