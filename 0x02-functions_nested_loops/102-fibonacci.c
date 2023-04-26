@@ -15,10 +15,10 @@ int f2 = 0;
 int count, sum;
 while (count < 50)
 {
-f1 = f2;
 sum = f1 + f2;
-f2 = sum;
 printf("%d", sum);
+f1 = f2;
+f2 = sum;
 count++;
 if (count == 49)
 {
