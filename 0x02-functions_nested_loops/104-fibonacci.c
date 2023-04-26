@@ -21,7 +21,7 @@ printf("%lu", sum);
 f1 = f2;
 f2 = sum;
 count++;
-if (count != 50)
+if (count != 98)
 {
 printf(", ");
 }
