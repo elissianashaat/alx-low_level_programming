@@ -13,20 +13,17 @@ int main(void)
 int f1 = 1;
 int f2 = 0;
 int count, sum;
+_putchar(' ');
 while (count < 50)
 {
 sum = f1 + f2;
-printf("%d", sum);
+printf("%d, ", sum);
 f1 = f2;
 f2 = sum;
 count++;
 if (count == 49)
 {
 _putchar('\n');
-}
-else
-{
-_putchar(',');
 }
 }
 return (0);
