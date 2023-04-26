@@ -10,8 +10,8 @@
 
 int main(void)
 {
-unsigned long f1 = 0;
-unsigned long f2 = 1;
+unsigned long f1 = 1;
+unsigned long f2 = 2;
 int count = 0;
 unsigned long sum;
 while (count < 98)
