@@ -11,7 +11,7 @@
 int main(void)
 {
 unsigned long f1 = 1;
-unsigned long f2 = 2;
+unsigned long f2 = 1;
 int count = 0;
 unsigned long sum;
 while (count < 98)
