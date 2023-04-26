@@ -17,21 +17,13 @@ unsigned long bsum = 0;
 while (count < 4000000)
 {
 sum = f1 + f2;
-if (sum % 2 == 0)
+if ((sum % 2) == 0)
 {
 bsum +=sum;
 }
 f1 = f2;
 f2 = sum;
 count++;
-if (count != 4000000)
-{
-printf(", ");
-}
-else
-{
-printf("\n");
-}
 }
 printf("%lu", bsum);
 return (0);
