@@ -16,7 +16,7 @@ for (itsmult = 1; itsmult < 10; itsmult++)
 {
 _putchar(',');
 _putchar(' ');
-product = num * itsmult;
+product = number * itsmult;
 if (product <= 9)
 {
 _putchar(' ');
