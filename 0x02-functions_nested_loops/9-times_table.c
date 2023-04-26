@@ -12,6 +12,7 @@ void times_table(void)
 int number, itsmult, product;
 for (number = 0; number < 10; number++)
 {
+_putchar('0');
 for (itsmult = 1; itsmult < 10; itsmult++)
 {
 _putchar(',');
