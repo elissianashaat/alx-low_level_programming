@@ -10,9 +10,10 @@
 
 int main(void)
 {
-int f1 = 1;
+int f1 = 0;
 int f2 = 1;
-int count, sum;
+int count;
+unsigned long sum;
 _putchar(' ');
 while (count < 50)
 {
