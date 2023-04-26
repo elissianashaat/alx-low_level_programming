@@ -23,7 +23,7 @@ f2 = sum;
 count++;
 if (count == 49)
 {
-_putchar('\n');
+printf("\n");
 }
 else
 {
