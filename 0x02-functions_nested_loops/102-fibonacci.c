@@ -12,8 +12,9 @@ int main(void)
 {
 unsigned long f1 = 0;
 unsigned long f2 = 1;
-int count;
+int count = 0;
 unsigned long sum;
+_putchar('0');
 while (count < 50)
 {
 sum = f1 + f2;
@@ -21,7 +22,7 @@ printf("%lu ", sum);
 f1 = f2;
 f2 = sum;
 count++;
-if (count == 49)
+if ((count == 49) || (count = 0))
 {
 _putchar('\n');
 }
