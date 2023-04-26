@@ -22,7 +22,7 @@ printf("%lu ", sum);
 f1 = f2;
 f2 = sum;
 count++;
-if ((count == 49) || (count = 0))
+if (count == 49)
 {
 _putchar('\n');
 }
