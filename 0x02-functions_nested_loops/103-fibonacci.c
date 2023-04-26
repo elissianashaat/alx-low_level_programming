@@ -3,7 +3,8 @@
 
 /**
  * main - entry point
- * Description: prints the sum of even-valued fibonacci sequence not exceeding 4 million
+ * Description: prints the sum of even-valued fibonacci
+ * sequence not exceeding 4 million
  * Return: always 0
  */
 
@@ -11,19 +12,17 @@ int main(void)
 {
 unsigned long f1 = 0;
 unsigned long f2 = 1;
-int count = 0;
 unsigned long sum;
 unsigned long bsum = 0;
-while (count < 4000000)
+while (sum < 4000000)
 {
 sum = f1 + f2;
 if ((sum % 2) == 0)
 {
-bsum +=sum;
+bsum += sum;
 }
 f1 = f2;
 f2 = sum;
-count++;
 }
 printf("%lu", bsum);
 return (0);
