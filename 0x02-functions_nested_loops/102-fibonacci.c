@@ -21,13 +21,13 @@ printf("%lu", sum);
 f1 = f2;
 f2 = sum;
 count++;
-if (count = 49)
+if (count != 49)
 {
-printf("\n");
+printf(", ");
 }
 else
 {
-printf(", ");
+printf("\n");
 }
 }
 return (0);
