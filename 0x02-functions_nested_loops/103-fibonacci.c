@@ -14,7 +14,7 @@ unsigned long f2 = 1;
 int count = 0;
 unsigned long sum;
 unsigned long bsum = 0;
-while (count < 4,000,000)
+while (count < 4000000)
 {
 sum = f1 + f2;
 if (sum % 2 == 0)
@@ -24,7 +24,7 @@ bsum +=sum;
 f1 = f2;
 f2 = sum;
 count++;
-if (count != 4,000,000)
+if (count != 4000000)
 {
 printf(", ");
 }
