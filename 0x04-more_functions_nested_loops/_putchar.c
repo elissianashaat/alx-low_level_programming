@@ -1,0 +1,14 @@
+#include <unistd.h>
+#include "main.h"
+
+/**
+ * _putchar - writes the character c to stout
+ * @c: the character to print
+ * Return: 1 on success
+ * on error -1 is returned, and errno is set appropriately
+ */
+
+int _putchar(int c)
+{
+return (write(1, &c, 1));
+}
