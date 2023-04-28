@@ -3,7 +3,7 @@
 /**
  *print_numbers - print 0 - 9
  *only using putchar twice
- *Return: always 0 
+ *Return: always 0
  */
 
 void print_numbers(void)
