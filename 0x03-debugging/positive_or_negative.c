@@ -5,7 +5,8 @@
 
 /* betty style doc for function main goes there */
 /**
-* main - Entry point
+* positive_or_negative - Entry point
+* @n: integer to check if its pos or neg
 * Return: Always 0 (success)
 */
 
