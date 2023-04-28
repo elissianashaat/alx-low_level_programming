@@ -14,7 +14,7 @@ for (i = 0; i < 10; i++)
 {
 if (i == 4 || i == 2)
 {
-	continue;;
+continue;
 }
 _putchar(i + '0');
 }
