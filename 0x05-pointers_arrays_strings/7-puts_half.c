@@ -14,11 +14,11 @@ int i;
 int j = 0;
 while (str[j] != '\0')
 {
-j++
+j++;
 }
 for (i = 0; i < j/2; i++)
 {
-_putchar(s[i]);
+_putchar(str[i]);
 }
 _putchar('\n');
 }
