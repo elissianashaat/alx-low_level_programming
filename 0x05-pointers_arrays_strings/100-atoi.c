@@ -14,11 +14,11 @@ unsigned int n = 0;
 int sign = 1;
 do
 {
-if (*s == '-');
+if (*s == '-')
 {
 sign *= -1;
 }
-else if (*S >= '0' && *s <= '9')
+else if (*s >= '0' && *s <= '9')
 {
 n = (n * 10) + (*s - '0');
 }
