@@ -8,7 +8,6 @@
  *  to the buffer pointed to by dest
  *  @dest: array to copy from src
  *  @src: array to be copied
- *  @j: counter for the pointers
  *  Return: the pointer to dest
  */
 
