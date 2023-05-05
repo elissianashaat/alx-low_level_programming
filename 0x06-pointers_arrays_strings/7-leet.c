@@ -18,7 +18,7 @@ while (*s)
 {
 for (i = 0; i < sizeof(letters) / sizeof(char); i++)
 {
-if (*s == letters[i] || *s == numbers[i] + 32)
+if (*s == letters[i] || *s == letters[i] + 32)
 {
 *s = 48 + numbers[i];
 }
