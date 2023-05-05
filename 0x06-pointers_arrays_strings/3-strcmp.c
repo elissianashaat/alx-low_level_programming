@@ -6,7 +6,7 @@
  * _strcmp - function compares two strings
  * @s1: first string to be compared
  * @s2: second string to be compared
- * Return: 1 if true , 0 if not equal 
+ * Return: 1 if true , 0 if not equal
  */
 
 int _strcmp(char *s1, char *s2)
