@@ -15,7 +15,11 @@ int sum1;
 int sum2;
 for (i = 0; i < size; i++)
 {
-
-for (j = 0; j < i; j++)
+sum1 = sum1 + a[y * size + y];
+}
+for (i = size - 1; i >= 0; i--)
 {
-
+sum2 +=  a[y * size + (size -  y - 1)];
+}
+printf("%d, %d\n", sum1, sum2);
+}
