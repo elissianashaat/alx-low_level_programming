@@ -10,18 +10,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-int i;
-while (*haystack)
-{
-for (i = 0; needle[i] != '\0'; i++)
-{
-if (haystack[i] == needle[i])
-{
-return ();
-}
-i++;
-}
-haystack++;
-}
-return (0);
+char *u;
+u = strstr (haystack, needle);
+return (u);
 }
