@@ -15,9 +15,9 @@ while (*haystack)
 {
 for (i = 0; needle[i] != '\0'; i++)
 {
-if (needle[i] == haystack[i])
+if (haystack[i] == needle[i])
 {
-return (needle);
+return ();
 }
 i++;
 }
