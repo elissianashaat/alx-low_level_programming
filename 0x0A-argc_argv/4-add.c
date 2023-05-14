@@ -12,8 +12,8 @@
 int main(int argc, char *argv[])
 {
 int i;
-long unsigned int k;
-long unsigned int result;
+unsigned int k;
+unsigned int result;
 char *e;
 result = 0;
 if (argc > 1)
@@ -32,7 +32,7 @@ return (1);
 result += atoi(e);
 e++;
 }
-printf("%ld\n", result);
+printf("%d\n", result);
 }
 else
 {
