@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- *
  * create_array - create array of size size and assign c
  * Description: create array of size size and assign c
  * @size: size of array
