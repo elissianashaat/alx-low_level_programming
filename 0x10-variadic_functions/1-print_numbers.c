@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
 /**
  * print_numbers - to print numbers and seperate them
@@ -20,8 +20,8 @@ return;
 va_start(ap, n);
 while (i--)
 {
-printf("%d%s", va_arg(ap, int), i ?
-		(sep ? sep : "") : "\n");
+printf("%d%s", va_arg(ap, int),
+	       	i ? (sep ? sep : "") : "\n");
 }
 va_end(ap);
 }
