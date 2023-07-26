@@ -21,7 +21,8 @@ return;
 va_start(ap, n);
 while (i--)
 {
-printf("%s%s", (s = va_arg(ap, char *)) ? s : "(nil)", i ? (sep ? sep : "") : "\n");
+printf("%s%s", (s = va_arg(ap, char *)) ? s : "(nil)",
+i ? (sep ? sep : "") : "\n");
 }
 va_end(ap);
 }
