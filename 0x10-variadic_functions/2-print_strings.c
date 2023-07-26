@@ -23,6 +23,6 @@ while (i--)
 {
 printf("%s%s", (s = va_arg(ap, char *)) ? s : "(nil)",
 i ? (sep ? sep : "") : "\n");
-va_end(ap);
 }
+va_end(ap);
 }
