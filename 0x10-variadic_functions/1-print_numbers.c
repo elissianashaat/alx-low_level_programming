@@ -21,7 +21,7 @@ va_start(ap, n);
 while (i--)
 {
 printf("%d%s", va_arg(ap, int),
-	       	i ? (sep ? sep : "") : "\n");
+i ? (sep ? sep : "") : "\n");
 }
 va_end(ap);
 }
