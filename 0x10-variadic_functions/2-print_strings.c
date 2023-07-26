@@ -2,13 +2,13 @@
 
 /**
  * print_strings - function to prints strings
- * @sep: seperator
+ * @separator: seperator
  * @n: no. of args
  * @...: strings printed
  * Return: void
  */
 
-void print_strings(const char *sep, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 int i = n;
 char *s;
