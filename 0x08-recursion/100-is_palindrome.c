@@ -3,7 +3,7 @@
 /**
  * lastIndex - gets last index of string
  * @s: pointer to string
- * @Return: int
+ * Return: int
  */
 int is_palindrome(char *s);
 int check(char *s, int begin, int end, int mod);
@@ -20,7 +20,7 @@ return (t);
 /**
  * is_palindrome - if string palindrome
  * @s: string
- * Return: true or false
+ * Return: 1 or 0
  */
 int is_palindrome(char *s)
 {
